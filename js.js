@@ -109,7 +109,7 @@ function getCookie(name) {
     return null;
 }
 function deleteCookie(name) {
-    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/js-45-11/js-45-11; domain=localhost";
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/Cookie; domain=danyos.github.io";
 }
 
 console.log(window.location.hostname)
